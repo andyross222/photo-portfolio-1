@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppy Calendar 2024</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .month-image {
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-center text-gray-800 mb-12">Puppy Calendar 2024</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- January -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">January</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,january" alt="January Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- February -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">February</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,february" alt="February Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- March -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">March</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,march" alt="March Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- April -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">April</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,april" alt="April Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- May -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">May</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,may" alt="May Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- June -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">June</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,june" alt="June Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- July -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">July</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,july" alt="July Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- August -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">August</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,august" alt="August Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- September -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">September</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,september" alt="September Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- October -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">October</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,october" alt="October Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- November -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">November</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,november" alt="November Puppy" class="month-image rounded-lg mb-2">
+            </div>
+            <!-- December -->
+            <div class="bg-white rounded-lg shadow-lg p-4 flex flex-col items-center">
+                <h2 class="text-2xl font-semibold mb-4">December</h2>
+                <img src="https://source.unsplash.com/featured/?puppy,december" alt="December Puppy" class="month-image rounded-lg mb-2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
